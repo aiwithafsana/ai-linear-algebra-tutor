@@ -1,0 +1,87 @@
+{
+  "shapes": [
+    {
+      "type": "vector",
+      "x": 50,
+      "y": 50,
+      "dx": 120,
+      "dy": 80,
+      "color": "#3b82f6",
+      "strokeWidth": 3,
+      "label": "v₁ = [3, 4]"
+    },
+    {
+      "type": "vector",
+      "x": 200,
+      "y": 100,
+      "dx": 100,
+      "dy": -60,
+      "color": "#ef4444",
+      "strokeWidth": 3,
+      "label": "v₂ = [5, -3]"
+    },
+    {
+      "type": "vector",
+      "x": 350,
+      "y": 80,
+      "dx": 80,
+      "dy": 40,
+      "color": "#10b981",
+      "strokeWidth": 3,
+      "label": "v₃ = v₁ + v₂"
+    },
+    {
+      "type": "matrix",
+      "x": 100,
+      "y": 250,
+      "width": 150,
+      "height": 100,
+      "color": "#8b5cf6",
+      "strokeWidth": 2,
+      "label": "A = [[1, 2], [3, 4]]"
+    },
+    {
+      "type": "matrix",
+      "x": 300,
+      "y": 250,
+      "width": 150,
+      "height": 100,
+      "color": "#f59e0b",
+      "strokeWidth": 2,
+      "label": "B = [[5, 6], [7, 8]]"
+    },
+    {
+      "type": "circle",
+      "x": 500,
+      "y": 150,
+      "radius": 50,
+      "color": "#6366f1",
+      "strokeWidth": 2,
+      "label": "Origin (0,0)"
+    },
+    {
+      "type": "text",
+      "x": 50,
+      "y": 400,
+      "text": "Linear Algebra Visualization",
+      "fontSize": 20,
+      "color": "#374151"
+    },
+    {
+      "type": "text",
+      "x": 50,
+      "y": 430,
+      "text": "Vector Addition: v₁ + v₂ = v₃",
+      "fontSize": 16,
+      "color": "#6b7280"
+    },
+    {
+      "type": "text",
+      "x": 50,
+      "y": 460,
+      "text": "Matrix Operations: A × B",
+      "fontSize": 16,
+      "color": "#6b7280"
+    }
+  ]
+}

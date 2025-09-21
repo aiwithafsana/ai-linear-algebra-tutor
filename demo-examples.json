@@ -1,0 +1,177 @@
+{
+  "examples": [
+    {
+      "name": "Vector Operations Demo",
+      "description": "Shows vector addition, subtraction, and dot product visualization",
+      "json": {
+        "mathObjects": [
+          {
+            "type": "vector",
+            "data": {
+              "start": { "x": 100, "y": 100 },
+              "end": { "x": 200, "y": 100 },
+              "components": [4, 0],
+              "magnitude": 4
+            },
+            "position": { "x": 100, "y": 100 },
+            "style": { "color": "#FF0000", "strokeWidth": 3 }
+          },
+          {
+            "type": "vector",
+            "data": {
+              "start": { "x": 100, "y": 100 },
+              "end": { "x": 150, "y": 150 },
+              "components": [2, 2],
+              "magnitude": 2.83
+            },
+            "position": { "x": 100, "y": 100 },
+            "style": { "color": "#00FF00", "strokeWidth": 3 }
+          },
+          {
+            "type": "vector",
+            "data": {
+              "start": { "x": 100, "y": 100 },
+              "end": { "x": 250, "y": 150 },
+              "components": [6, 2],
+              "magnitude": 6.32
+            },
+            "position": { "x": 100, "y": 100 },
+            "style": { "color": "#0000FF", "strokeWidth": 3 }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Matrix Operations Demo",
+      "description": "Shows 2x2 and 3x3 matrices with different operations",
+      "json": {
+        "mathObjects": [
+          {
+            "type": "matrix",
+            "data": {
+              "rows": 2,
+              "cols": 2,
+              "values": [[1, 2], [3, 4]],
+              "position": { "x": 100, "y": 100 }
+            },
+            "position": { "x": 100, "y": 100 },
+            "style": { "color": "#0000FF", "strokeWidth": 2 }
+          },
+          {
+            "type": "matrix",
+            "data": {
+              "rows": 3,
+              "cols": 3,
+              "values": [[1, 0, 0], [0, 1, 0], [0, 0, 1]],
+              "position": { "x": 300, "y": 100 }
+            },
+            "position": { "x": 300, "y": 100 },
+            "style": { "color": "#FF0000", "strokeWidth": 2 }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Linear Equations Demo",
+      "description": "Shows linear functions and their graphs",
+      "json": {
+        "mathObjects": [
+          {
+            "type": "equation",
+            "data": {
+              "equation": "y = 2x + 1",
+              "type": "linear"
+            },
+            "position": { "x": 100, "y": 50 },
+            "style": { "color": "#00AA00", "fontSize": 18 }
+          },
+          {
+            "type": "equation",
+            "data": {
+              "equation": "y = -x + 3",
+              "type": "linear"
+            },
+            "position": { "x": 100, "y": 80 },
+            "style": { "color": "#AA0000", "fontSize": 18 }
+          }
+        ],
+        "shapes": [
+          {
+            "id": "line1",
+            "type": "line",
+            "points": [50, 200, 150, 100],
+            "stroke": "#00AA00",
+            "strokeWidth": 2
+          },
+          {
+            "id": "line2",
+            "type": "line",
+            "points": [50, 100, 150, 200],
+            "stroke": "#AA0000",
+            "strokeWidth": 2
+          }
+        ]
+      }
+    },
+    {
+      "name": "Mixed Mathematical Content",
+      "description": "Combines vectors, matrices, equations, and geometric shapes",
+      "json": {
+        "mathObjects": [
+          {
+            "type": "vector",
+            "data": {
+              "start": { "x": 50, "y": 50 },
+              "end": { "x": 150, "y": 100 },
+              "components": [3, 2],
+              "magnitude": 3.61
+            },
+            "position": { "x": 50, "y": 50 },
+            "style": { "color": "#FF6600", "strokeWidth": 3 }
+          },
+          {
+            "type": "matrix",
+            "data": {
+              "rows": 2,
+              "cols": 2,
+              "values": [[2, 1], [1, 3]],
+              "position": { "x": 200, "y": 50 }
+            },
+            "position": { "x": 200, "y": 50 },
+            "style": { "color": "#6600FF", "strokeWidth": 2 }
+          },
+          {
+            "type": "equation",
+            "data": {
+              "equation": "det(A) = 5",
+              "type": "determinant"
+            },
+            "position": { "x": 200, "y": 200 },
+            "style": { "color": "#006600", "fontSize": 16 }
+          }
+        ],
+        "shapes": [
+          {
+            "id": "circle1",
+            "type": "circle",
+            "x": 400,
+            "y": 100,
+            "radius": 40,
+            "stroke": "#FF0000",
+            "strokeWidth": 2
+          },
+          {
+            "id": "rect1",
+            "type": "rect",
+            "x": 500,
+            "y": 60,
+            "width": 80,
+            "height": 80,
+            "stroke": "#0000FF",
+            "strokeWidth": 2
+          }
+        ]
+      }
+    }
+  ]
+}
