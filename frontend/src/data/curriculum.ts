@@ -426,3 +426,4 @@ export const getLessonById = (topicId: string, lessonId: string): Lesson | undef
 export const getAllTopics = (): CurriculumTopic[] => {
   return curriculumData.sort((a, b) => a.order - b.order);
 };
+

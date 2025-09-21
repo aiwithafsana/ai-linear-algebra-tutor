@@ -466,3 +466,4 @@ const AnimatedWhiteboard: React.FC<AnimatedWhiteboardProps> = ({ jsonData, class
 };
 
 export default AnimatedWhiteboard;
+

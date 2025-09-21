@@ -30,3 +30,4 @@ export const authenticateToken = (req: AuthenticatedRequest, res: Response, next
 export const generateToken = (user: { id: string; email: string; name: string; provider: string }) => {
   return jwt.sign(user, process.env.JWT_SECRET || 'fallback-secret', { expiresIn: '7d' });
 };
+

@@ -226,3 +226,4 @@ const CurriculumSelector: React.FC<CurriculumSelectorProps> = ({
 };
 
 export default CurriculumSelector;
+

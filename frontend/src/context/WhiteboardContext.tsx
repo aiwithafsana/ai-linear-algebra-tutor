@@ -66,3 +66,4 @@ export const WhiteboardProvider: React.FC<WhiteboardProviderProps> = ({ children
     </WhiteboardContext.Provider>
   );
 };
+

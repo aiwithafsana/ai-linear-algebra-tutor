@@ -230,3 +230,4 @@
 ---
 
 **🎉 Congratulations! Your AI Linear Algebra Tutor is now live and ready to help students learn!**
+

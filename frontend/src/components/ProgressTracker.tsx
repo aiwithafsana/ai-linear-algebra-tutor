@@ -320,3 +320,4 @@ const ProgressTracker: React.FC<ProgressTrackerProps> = ({
 };
 
 export default ProgressTracker;
+

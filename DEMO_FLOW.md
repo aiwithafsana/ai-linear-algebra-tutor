@@ -157,3 +157,4 @@ After the demo, highlight:
 ---
 
 *This demo showcases how AI can transform mathematics education through personalized, interactive, and adaptive learning experiences.*
+

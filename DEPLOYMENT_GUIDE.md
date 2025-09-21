@@ -232,3 +232,4 @@ npm install @auth0/nextjs-auth0 react-google-login @types/react-google-login
 4. Implement user profiles and settings
 5. Add more advanced features like collaborative whiteboards
 6. Consider implementing a database for persistent data storage
+

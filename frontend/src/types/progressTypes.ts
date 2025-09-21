@@ -80,3 +80,4 @@ export interface ProgressResponse {
     learningStreak: number;
   };
 }
+

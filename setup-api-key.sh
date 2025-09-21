@@ -33,3 +33,4 @@ echo ""
 echo "🔍 To verify the setup, you can test the health endpoint:"
 echo "   curl http://localhost:5001/api/ask/health"
 echo ""
+

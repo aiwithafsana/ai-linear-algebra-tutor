@@ -386,3 +386,4 @@ class KonvaService {
 }
 
 export const konvaService = new KonvaService();
+

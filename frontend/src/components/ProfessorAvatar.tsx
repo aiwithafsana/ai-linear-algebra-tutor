@@ -81,3 +81,4 @@ const ProfessorAvatar: React.FC<ProfessorAvatarProps> = ({
 };
 
 export default ProfessorAvatar;
+

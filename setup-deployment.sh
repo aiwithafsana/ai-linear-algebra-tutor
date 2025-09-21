@@ -90,3 +90,4 @@ echo "5. Deploy frontend to Vercel (see DEPLOYMENT_GUIDE.md)"
 echo "6. Update OAuth redirect URLs with your production domains"
 
 echo "🎉 Setup complete! Check DEPLOYMENT_GUIDE.md for detailed instructions."
+
